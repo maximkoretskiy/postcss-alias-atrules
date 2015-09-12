@@ -11,25 +11,11 @@
 [ci]:      https://travis-ci.org/maximkoretskiy/postcss-alias-atrules
 
 ```css
-@b nav { /* b is for block */
-    @e item { /* e is for element */
-        display: inline-block;
-    }
-    @m placement_header {
-        background-color: red;
-    }
-}
+@i "path/to/import.css";
 ```
 
 ```css
-@component nav { /* b is for block */
-    @descedent item { /* e is for element */
-        display: inline-block;
-    }
-    @modificator placement_header {
-        background-color: red;
-    }
-}
+@import "path/to/import.css";
 ```
 
 ## Usage
@@ -37,9 +23,7 @@
 ```js
 postcss([ require('postcss-alias-atrules'){
     rules: {
-            b: 'component',
-            e: 'descedent',
-            m: 'modificator'
+            i: 'import'
         }
     } ])
 ```
