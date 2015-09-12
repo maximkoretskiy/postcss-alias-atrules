@@ -1,0 +1,33 @@
+{
+  "name": "postcss-alias-atrules",
+  "version": "0.0.0",
+  "description": "PostCSS plugin that creates aliases for at-rules",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "atrule",
+    "alias",
+    "shortcut",
+    "rename"
+  ],
+  "author": "Maksim Koretskiy <maksim.koretskiy@saltpepper.ru>",
+  "license": "MIT",
+  "repository": "maximkoretskiy/postcss-alias-atrules",
+  "bugs": {
+    "url": "https://github.com/maximkoretskiy/postcss-alias-atrules/issues"
+  },
+  "homepage": "https://github.com/maximkoretskiy/postcss-alias-atrules",
+  "dependencies": {
+    "postcss": "^5.0.2"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^1.0.0",
+    "gulp-mocha": "^2.1.3"
+  },
+  "scripts": {
+    "test": "gulp"
+  }
+}

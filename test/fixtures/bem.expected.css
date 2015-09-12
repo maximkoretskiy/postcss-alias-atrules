@@ -1,0 +1,8 @@
+@component nav { /* b is for block */
+    @descedent item { /* e is for element */
+        display: inline-block;
+    }
+    @modificator placement_header {
+        background-color: red;
+    }
+}

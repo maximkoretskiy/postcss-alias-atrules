@@ -1,0 +1,8 @@
+@b nav { /* b is for block */
+    @e item { /* e is for element */
+        display: inline-block;
+    }
+    @m placement_header {
+        background-color: red;
+    }
+}
