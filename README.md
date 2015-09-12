@@ -1,4 +1,5 @@
-# PostCSS Alias Atrules [![Build Status][ci-img]][ci]
+# PostCSS Alias Atrules
+[![Build Status][ci-img]][ci] [![NPM][npm-img]][npm] [![David DM][david-img]][david]
 
 <img align="right" width="135" height="95"
      title="Philosopher’s stone, logo of PostCSS"
@@ -9,6 +10,10 @@
 [PostCSS]: https://github.com/postcss/postcss
 [ci-img]:  https://travis-ci.org/maximkoretskiy/postcss-alias-atrules.svg
 [ci]:      https://travis-ci.org/maximkoretskiy/postcss-alias-atrules
+[npm-img]:    https://badge.fury.io/js/postcss-alias-atrules.svg
+[npm]:        https://www.npmjs.com/package/postcss-alias-atrules
+[david-img]:  https://david-dm.org/maximkoretskiy/postcss-alias-atrules.svg
+[david]:      https://david-dm.org/maximkoretskiy/postcss-alias-atrules
 
 ```css
 @i "path/to/import.css";
